@@ -638,7 +638,8 @@ public final class ClusterSettings extends AbstractScopedSettings {
                 SegmentReplicationPressureService.MAX_ALLOWED_STALE_SHARDS,
 
                 // Settings related to Searchable Snapshots
-                Node.NODE_SEARCH_CACHE_SIZE_SETTING
+                Node.NODE_SEARCH_CACHE_SIZE_SETTING,
+                JoinHelper.CLUSTER_MANAGER_JOIN_STATE_REFRESH_INTERVAL
             )
         )
     );
