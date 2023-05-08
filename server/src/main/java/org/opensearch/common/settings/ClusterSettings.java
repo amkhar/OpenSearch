@@ -639,7 +639,7 @@ public final class ClusterSettings extends AbstractScopedSettings {
 
                 // Settings related to Searchable Snapshots
                 Node.NODE_SEARCH_CACHE_SIZE_SETTING,
-                JoinHelper.CLUSTER_MANAGER_JOIN_STATE_REFRESH_INTERVAL
+                JoinHelper.CLUSTER_MANAGER_VALIDATE_JOIN_CACHE_INTERVAL
             )
         )
     );
